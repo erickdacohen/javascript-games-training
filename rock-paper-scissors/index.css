@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+h1,
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 25px;
+}
+
+span {
+  padding: 5px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #999;
+  margin: 10px 200px;
+  border-radius: 10px;
+}
+
+button {
+  text-align: center;
+  padding: 20px;
+  margin: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  color: crimson;
+  font-size: large;
+  box-shadow: none;
+  cursor: pointer;
+}
