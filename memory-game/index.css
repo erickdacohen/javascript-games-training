@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  text-decoration: underline;
+}
+
+h3 {
+  margin: 25px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: #000;
+  color: #fff;
+  height: 50px;
+  width: 150px;
+  margin: 150px;
+  border: none;
+  cursor: pointer;
+}
+
+#grid {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 25px;
+  cursor: pointer;
+}
