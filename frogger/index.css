@@ -1,0 +1,65 @@
+.grid {
+  border: solid #000 1px;
+  height: 180px;
+  width: 180px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.grid div {
+  height: 20px;
+  width: 20px;
+}
+
+.ending-block {
+  background-color: #f00;
+}
+
+.starting-block {
+  background-color: #00f;
+}
+
+/* .log-left,
+.log-right {
+  background-color: #0ff;
+} */
+
+.car-left,
+.car-right,
+.c2,
+.c3 {
+  background-color: #ccc;
+}
+
+.l1,
+.l2,
+.l3 {
+  background-color: #a52;
+}
+
+.l4,
+.l5 {
+  background-color: #0ff;
+}
+
+.c1 {
+  background-color: #000;
+}
+
+.frog {
+  background-color: #0f0;
+}
+
+button {
+  width: 120px;
+  height: 50px;
+  border: none;
+  margin: 10px;
+  background-color: #000;
+  color: #fff;
+}
+button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
