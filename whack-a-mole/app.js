@@ -10,6 +10,7 @@ let hitPosition;
 let currentTime = 10;
 let timerId = null;
 let countDownTimerId;
+let gameEnded = false;
 
 function randomSquare() {
   squares.forEach((square) => {
@@ -38,6 +39,7 @@ function countDown() {
   if (currentTime == 0) {
     clearInterval(countDownTimerId);
     clearInterval(timerId);
+
     alert('GAME OVER. Final score is:' + ' ' + result);
   }
 }
@@ -50,9 +52,16 @@ function moveMole() {
 function startGame() {
   moveMole();
   countDown();
+  gameEnded = true;
 }
 
-startBtn.addEventListener('click', startGame);
+startBtn.addEventListener('click', () => {
+  if (gameEnded) {
+    null;
+  } else {
+    startGame();
+  }
+});
 
 resetBtn.addEventListener('click', () => {
   location.reload();
